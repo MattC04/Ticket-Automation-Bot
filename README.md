@@ -1,35 +1,43 @@
-# Ticket-Automation-Bot
+# 🎟️ TicketMaster Automation Bot & Restock Tracker
 
-Project Idea: Build an automation bot that will catch restocks, sales, ticket prices, in a very quick manner. 
+## 🚀 Project Overview
+This project is an **automation bot** designed to **monitor restocks, track sales, and catch ticket prices** as soon as they become available. The bot operates at **high speed**, ensuring users never miss out on limited stock or exclusive ticket drops.
 
-Some Core Features:
-	Restock and Drop Notis
-Monitor shopify stores, footsites, walmart, target, ticketmaster, pokemon center
-Notify users when a product becomes available
-Automate checkout workflows for supported stores
-	Price Monitoring and Alerts
-Track price changes on e-commerce platforms
-Notify users of price drops or discounts
-	Captcha Solver Integration
-Support automated CAPTCHA solving via APIs
-	Web Scraping
-Extract data from any website and generate reports
+### 🌟 Core Features
+#### 🔔 Restock & Drop Notifications
+- **Monitor** Shopify stores, Footsites, Walmart, Target, Ticketmaster, and Pokémon Center.
+- **Send real-time alerts** when a product or ticket becomes available.
+- **Automate checkout workflows** for supported stores.
 
-Project Architecture:
-Frontend:
-Electron.js: cross platform desktop app
-UI: Tailwind CSS
-Real-Time Notis: Websockets or socket.io for instant updating
-Backend: 
-Task Orchestration: Python with FastAPI for automation tasks
-Task Queue: Celery or Bull.js for handling long-running tasks like web scraping
-Database: Redis for caching and PostgreSQL for user/task data
-Automation tools:
-Playwright or puppeteer for browser automation
-Selenium for tasks that require more interaction with web pages
-Proxy management: integrate rotating proxy support 
-Deployment: 
-Docker: Containerizing the app
-Electron has also an auto-updater
+#### 💰 Price Monitoring & Alerts
+- **Track price changes** on major e-commerce platforms.
+- **Notify users** of price drops and discounts.
 
+#### 🔓 CAPTCHA Solver Integration
+- Automatically solve CAPTCHAs using **API-based CAPTCHA solvers**.
+
+#### 📊 Web Scraping & Data Extraction
+- Extract data from websites and **generate reports** for user insights.
+
+---
+
+## 🏗️ Project Architecture
+### **Frontend**
+- **Electron.js** – Cross-platform desktop application.
+- **Tailwind CSS** – Clean and modern UI design.
+- **Real-Time Notifications** – WebSockets/Socket.io for instant updates.
+
+### **Backend**
+- **FastAPI (Python)** – High-performance API handling automation tasks.
+- **Task Queue** – Celery (Python) or Bull.js (Node.js) for handling long-running tasks.
+- **Database** – Redis (for caching) and PostgreSQL (for storing user/task data).
+
+### **Automation Tools**
+- **Playwright or Puppeteer** – For browser automation.
+- **Selenium** – For advanced web interactions requiring complex automation.
+- **Proxy Management** – Rotating proxy integration to prevent detection and blocking.
+
+### **Deployment**
+- **Docker** – Containerization for easy deployment.
+- **Auto-Updater** – Electron supports automatic updates.
 
